@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://cdn.vintagestory.at/gamefiles/unstable/vs_client_linux-x64_${version}.tar.gz";
-    hash = "sha256-Hgp2u/y2uPnJhAmPpwof76/woFGz4ISUXU+FIRMjMuQ=";
+    hash = "sha256-QzW/C2VIbM5AyWv+k99sBs0mvRF4S9PqFdU1gVUsfXE=";
   };
 
   nativeBuildInputs = [
